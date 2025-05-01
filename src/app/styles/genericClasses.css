@@ -1,0 +1,146 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.aligncenter {
+  align-items: center;
+}
+
+.justcenter {
+  justify-content: center;
+}
+
+.justbt {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.gap8 {
+  gap: 8px;
+}
+
+.gap12 {
+  gap: 12px;
+}
+
+.gap24 {
+  gap: 24px;
+}
+
+.p8 {
+  padding: 8px;
+}
+
+
+.p12 {
+  padding: 12px;
+}
+
+.p24 {
+  padding: 24px;
+}
+
+.bg {
+  background-color: var(--bg1);
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, 0.1),0 2px 4px #0000000d,0 12px 24px #0000000d;
+}
+
+.bg1 {
+  background-color: var(--bg1);
+}
+
+.bg2 {
+  background-color: var(--bg2);
+}
+
+.bg3 {
+  background-color: var(--bg3);
+}
+
+.dark .bg {
+  box-shadow: none;
+  border: solid 1px var(--border);
+}
+
+.hfit {
+  height: fit-content;
+}
+
+.wfit {
+  width: fit-content;
+}
+
+.hfull {
+  height: 100%;
+}
+
+.wfull {
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fsmall {
+  font-size: 1.2rem;
+}
+
+.fbody {
+  font-size: 1.8rem;
+}
+
+.ftitle {
+  font-size: 2.4rem;
+}
+
+.fstrong {
+  font-weight: bold;
+}
+
+.fnormal {
+  font-weight: normal;
+}
+
+.shadowMd {
+  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, 0.1),0 2px 4px #0000000d,0 12px 24px #0000000d;
+}
+
+.hide {
+  display: none;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.pageContainer {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.lgw {
+  max-width: 1024px;
+}

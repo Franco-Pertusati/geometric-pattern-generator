@@ -1,0 +1,66 @@
+<div class="container p24 bg3">
+  <div class="flex flexCol hfull gap12 center">
+    <div class="bg p12 flex gap12 aligncenter justbt">
+      <h2>Pattern Generator</h2>
+      <div class="flex gap12">
+        <app-theme-btn />
+        <app-button [label]="'Export to svg'" [icon]="'download'" [style]="'primary'" />
+      </div>
+    </div>
+    <div class="flex hfull gap12">
+      <div class="hfull bg p12 flex flexCol gap24" style="width: 472px;">
+        <div class="flex">
+          <div class="flex flexCol gap12 justcenter center">
+            <span>Rows</span>
+            <div class="flex gap12 aligncenter">
+              <app-button [icon]="'add'" [showLabel]="false" [style]="'primary rounded'" />
+              <span>3</span>
+              <app-button [icon]="'remove'" [showLabel]="false" [style]="'primary rounded'" />
+            </div>
+          </div>
+          <div class="flex flexCol gap12 justcenter center">
+            <span>Columns</span>
+            <div class="flex gap12 aligncenter">
+              <app-button [icon]="'add'" [showLabel]="false" [style]="'primary rounded'" />
+              <span>3</span>
+              <app-button [icon]="'remove'" [showLabel]="false" [style]="'primary rounded'" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flexCol">
+          <span>Density</span>
+          <input type="range">
+        </div>
+        <div class="flex flexCol">
+          <span>Spacing</span>
+          <input type="range">
+        </div>
+        <div class="flex flexCol">
+          <span>Opacity</span>
+          <input type="range">
+        </div>
+        <div class="flex flexCol">
+          <span>Rotation</span>
+          <input type="range">
+        </div>
+        <span>Colors</span>
+        <div>
+          <span>Background</span>
+          <input type="color">
+        </div>
+        <div>
+          <span>Color 1</span>
+          <input type="color">
+        </div>
+        <div>
+          <span>Color 2</span>
+          <input type="color">
+        </div>
+        <app-button [label]="'refresh'" [icon]="'refresh'" [style]="'primary wfull spanCenter'" />
+      </div>
+      <div class="hfull wfull justcenter aligncenter flex">
+        <div class="bg p24 wfit"></div>
+      </div>
+    </div>
+  </div>
+</div>

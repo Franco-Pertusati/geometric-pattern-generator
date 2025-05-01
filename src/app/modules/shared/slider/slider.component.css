@@ -1,0 +1,30 @@
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.custom-slider {
+  padding: 0;
+  width: 100%;
+  height: 8px;
+  box-sizing: border-box;
+  background: var(--bg3);
+  border-radius: 3px;
+}
+
+.custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--font2);
+  cursor: pointer;
+}
+
+.custom-slider::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--font2);
+  cursor: pointer;
+}
